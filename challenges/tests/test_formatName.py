@@ -1,12 +1,13 @@
 '''
 Test formatName.py with unittest
-Run tests:  python test_formatName.py 
+Run tests from root:   
+    python -m unittest challenges.tests.test_formatName
 '''
 
 import unittest
-from formatName import formatName 
+from challenges.formatName import formatName 
 
-class TestfName(unittest.TestCase):
+class TestName(unittest.TestCase):
     
     def test_single_name(self):
         '''
